@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "flowbite";
+
+/* .calendar-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.event-indicator {
+  background-color: red;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0 auto;
+}
+
+.events {
+  margin-top: 20px;
+}
+
+.event {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.event h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.event p {
+  margin: 0;
+  color: #666;
+} */
