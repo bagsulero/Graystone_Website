@@ -59,6 +59,13 @@ const Header = () => {
           <span className="relative z-10">Accreditations</span>
           <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></div>
         </Link>
+        <Link 
+          to="/announcements" 
+          className="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 group"
+        >
+          <span className="relative z-10">Announcements</span>
+          <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></div>
+        </Link>
       </nav>
 
       {/* Mobile menu button */}
@@ -103,6 +110,13 @@ const Header = () => {
             onClick={() => setIsOpen(false)}
           >
             Accreditations
+          </Link>
+          <Link 
+            to="/announcements" 
+            className="block w-full text-center py-3 px-6 transition-all duration-300 hover:bg-white/10 transform hover:scale-105"
+            onClick={() => setIsOpen(false)}
+          >
+            Announcements
           </Link>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MyCarousel from './Homepage/Carousel';
 import MissionVision from './Homepage/MissionVision';
-import Announcement from './Homepage/Annoucement';
 import MyCalendar from './Homepage/Calendar';
 import Programs from './Homepage/Programs';
 import Contact from './Homepage/Contact';
