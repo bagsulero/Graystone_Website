@@ -14,7 +14,7 @@ const Announcements = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost/api/announcements.php')
+    fetch('api/announcements.php')
       .then(res => res.json())
       .then(data => {
         if (data.error) {
